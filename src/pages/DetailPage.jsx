@@ -51,9 +51,9 @@ export const DetailPage = () => {
         </div>
 
         <div className='flex items-center gap-3'>
-          <button className='w-[40px] h-[40px] rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100'>-</button>
+          <button className='w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100'>-</button>
           <span className='text-lg'>5</span>
-          <button className='w-[40px] h-[40px] rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100'>+</button>
+          <button className='w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100'>+</button>
 
           <button className='flex items-center gap-2 bg-[#2c742f] text-white px-6 py-3 rounded-full hover:bg-[#256d28]'>
             <Bag /> Add to Cart
